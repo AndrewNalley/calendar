@@ -42,6 +42,8 @@ The following animation demonstrates the application functionality:
 
 https://learn.jquery.com/using-jquery-core/document-ready/
 
+https://api.jquery.com/category/traversing/
+
 
 
 
