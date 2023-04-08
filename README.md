@@ -37,6 +37,15 @@ The following animation demonstrates the application functionality:
 <!-- @TODO: create ticket to review/update image) -->
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
+
+## Sources
+
+https://learn.jquery.com/using-jquery-core/document-ready/
+
+
+
+
+
 ## Grading Requirements
 
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
