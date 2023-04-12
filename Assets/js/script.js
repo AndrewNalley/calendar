@@ -1,15 +1,15 @@
 $(function () {
 $("button").click(function () {
-  var userInput = $(this).closest(".time-block").attr("id");
-
-
-  var key = "mykey-" + userInput.id;
-  var value = JSON.stringify()// text area content);
+  var $timeBlock = $(this).closest(".time-block");
+  var userInput = $timeBlock.attr("id");
+  var key = "user-key-" + userInput;
+  var value = JSON.stringify($timeBlock.find("textarea").val());
   localStorage.setItem(key, value);
   console.log(userInput);
+  console.log(key);
 });
 
-var hourArray = ["#hour-7", "#hour-8", "#hour-9", "#hour-10", "#hour-11", "#hour-12", "#hour-13", "#hour-14", "#hour-15", "#hour-16", "#hour-17", "#hour-18", ""];
+var hourArray = ["#hour-7", "#hour-8", "#hour-9", "#hour-10", "#hour-11", "#hour-12", "#hour-13", "#hour-14", "#hour-15", "#hour-16", "#hour-17", "#hour-18"];
 var now = dayjs().hour();
 
 for (var i = 0; i < hourArray.length; i++) {
