@@ -46,6 +46,8 @@ https://api.jquery.com/category/traversing/
 
 https://stackoverflow.com/questions/1827659/get-a-div-value-in-jquery
 
+https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery
+
 
 
 
